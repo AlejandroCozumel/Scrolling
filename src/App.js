@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import './css/style.css';
+import image1 from "./assets/zac-pro-case.jpg";
+import image2 from "./assets/zac-pro-inside.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <bg-white>
+      <header>Header</header>
+      <css-pro>
+        <css-title>Mac Pro</css-title>
+        <css-case cursor>
+          <img src={image1} alt="mac" />
+        </css-case>
+        <css-inside cursor>
+          <img src={image2} alt="mac" />
+        </css-inside>
+      </css-pro>
+    </bg-white>
   );
 }
 
