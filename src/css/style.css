@@ -1,4 +1,7 @@
 @import 'vars.css';
+@import 'mac.css';
+
+/* Estilos de cursores y scrollbar */
 
 body {
 	background-color: black;
